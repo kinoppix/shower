@@ -1,0 +1,27 @@
+{
+  "author": "kinoppix",
+  "name": "Shower",
+  "description": "Shower is a realtime messaging server.",
+  "version": "0.0.1",
+  "homepage": "http://github.com/kinoppix/shower",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kinoppix/shower.git"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "config":">= 0.4.16",
+    "socket.io":">= 0.9.10",
+    "express":">= 2.5.11",
+    "redis":">= 0.7.1"},
+  "devDependencies": {
+    "socket.io-client": ">= 0.9.10",
+    "should": "*",
+    "supertest": "*",
+    "underscore": "*",
+    "coffee-script": "*",
+    "mocha": "*"
+  }
+}
