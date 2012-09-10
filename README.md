@@ -42,8 +42,6 @@ As Shower is designed as a standalone server, you can use any languages.
 
 
 ## Client Usage
-
-
 ```html
 	<script>
 		var socket = io.connect('http://shower-server/live1');
@@ -57,6 +55,8 @@ As Shower is designed as a standalone server, you can use any languages.
 			});
 		});
 	</script>
+```
+
 
 ## Development
 
